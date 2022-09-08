@@ -29,7 +29,7 @@ class Sockets {
             socket.emit('current-cards', this.cardlist.getCards() );
 
             //Recuperar players
-            socket.emit('current-cards', this.playerlist.getPlayers() );
+            socket.emit('current-players', this.playerlist.getPlayers() );
 
 
             // GetNewPlayer
